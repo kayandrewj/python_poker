@@ -7,8 +7,4 @@ def create_deck():
         for value in values:
             deck.append((suit, value))
 
-    for int in values:
-        con_card = str(int)
-        print(con_card)
-
 create_deck()
